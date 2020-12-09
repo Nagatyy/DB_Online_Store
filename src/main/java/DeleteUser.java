@@ -9,9 +9,9 @@ public class DeleteUser extends JDialog {
     private JButton buttonCancel;
     private JTextField textField1;
 
-    String DBURL = "jdbc:oracle:thin:@localhost:32118:XE";
-    String DBUSER = "sys as sysdba";
-    String DBPASS = "Mohmohmohmoh1";
+    String DBURL = "jdbc:oracle:thin@coeoracle.aus.edu:1521:orcl";
+    String DBUSER = "b00072311";
+    String DBPASS = "b00072311";
 
     Connection con;
     Statement statement;
